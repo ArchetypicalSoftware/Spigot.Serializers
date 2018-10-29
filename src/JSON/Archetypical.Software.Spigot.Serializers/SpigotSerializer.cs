@@ -1,14 +1,13 @@
-﻿using Archetypical.Software.Spigot;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.IO;
 
-namespace Archetypical.Software.Serializers
+namespace Archetypical.Software.Spigot.Serializers.Json
 {
-    public class JsonSpigotSerializer : ISpigotSerializer
+    public class SpigotSerializer : ISpigotSerializer
     {
         private readonly JsonSerializer _serializer = new JsonSerializer();
 
-        public JsonSpigotSerializer()
+        public SpigotSerializer()
         {
             _serializer.DefaultValueHandling = DefaultValueHandling.Ignore;
             _serializer.NullValueHandling = NullValueHandling.Ignore;

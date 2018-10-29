@@ -5,13 +5,16 @@
         <version>$version$</version>
         <authors>Archetypical.Software</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>           desc        </description>
+        <description>
+            A Spigot serializer implementing Protocol buffers as defined in https://developers.google.com/protocol-buffers/. 
+            This utilizes the nuget package protobuf-net 
+        </description>
         <dependencies>
             <dependency id="Archetypical.Software.Spigot" version="1.0.0" />
-            <dependency id="protobuf-net" Version="2.4.0" />
+            <dependency id="protobuf-net" version="2.4.0" />
         </dependencies>
     </metadata>
     <files>
-        <file src="src\Protobuf\Archetypical.Software.Serializers\bin\Release\netstandard2.0\Archetypical.Software.Serializers.Protobuf.*" target="lib\netstandard2.0\" />
+        <file src="Archetypical.Software.Spigot.Serializers\bin\Release\netstandard2.0\Archetypical.Software.Spigot.Serializers.Protobuf.dll" target="lib\netstandard2.0\Archetypical.Software.Spigot.Serializers.Protobuf.dll" />
     </files>
 </package>

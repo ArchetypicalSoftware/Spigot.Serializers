@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using Archetypical.Software.Spigot;
-using System.IO;
-using System.Numerics;
+﻿using System.IO;
+using Archetypical.Software.Serializers;
 using Newtonsoft.Json;
-using Newtonsoft.Msgpack;
 
-namespace Archetypical.Software.Serializers
+namespace Archetypical.Software.Spigot.Serializers.MsgPack
 {
-    public class MsgPackSpigotSerializer : ISpigotSerializer
+    public class SpigotSerializer : ISpigotSerializer
     {
         private readonly JsonSerializer _serializer;
 
-        public MsgPackSpigotSerializer()
+        public SpigotSerializer()
         {
             _serializer = new JsonSerializer
             {

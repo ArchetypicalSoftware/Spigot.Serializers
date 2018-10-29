@@ -1,10 +1,9 @@
-﻿using Archetypical.Software.Spigot;
+﻿using System.IO;
 using ProtoBuf;
-using System.IO;
 
-namespace Archetypical.Software.Serializers
+namespace Archetypical.Software.Spigot.Serializers.Protobuf
 {
-    public class ProtobufSpigotSerializer : ISpigotSerializer
+    public class SpigotSerializer : ISpigotSerializer
     {
         /// <inheritdoc />
         public T Deserialize<T>(byte[] serializedByteArray) where T : class, new()

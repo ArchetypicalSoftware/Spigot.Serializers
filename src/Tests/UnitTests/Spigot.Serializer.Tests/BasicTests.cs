@@ -1,5 +1,4 @@
-﻿using Archetypical.Software.Serializers;
-using Archetypical.Software.Spigot;
+﻿using Archetypical.Software.Spigot;
 using System.Collections.Generic;
 using Xunit;
 
@@ -10,21 +9,21 @@ namespace Spigot.Serializer.Tests
         [Fact]
         public void Json_Serializer_Basic_Test()
         {
-            var serializer = new JsonSpigotSerializer();
+            var serializer = new Archetypical.Software.Spigot.Serializers.Json.SpigotSerializer();
             Test_Serializer(serializer);
         }
 
         [Fact]
         public void MsgPack_Serializer_Basic_Test()
         {
-            var serializer = new MsgPackSpigotSerializer();
+            var serializer = new Archetypical.Software.Spigot.Serializers.MsgPack.SpigotSerializer();
             Test_Serializer(serializer);
         }
 
         [Fact]
         public void Protobuf_Serializer_Basic_Test()
         {
-            var serializer = new ProtobufSpigotSerializer();
+            var serializer = new Archetypical.Software.Spigot.Serializers.Protobuf.SpigotSerializer();
             Test_Serializer(serializer);
         }
 

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Archetypical.Software.Spigot.Serializers.MsgPack</AssemblyName>
+    <RootNamespace>Archetypical.Software.Spigot.Serializers.MsgPack</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Archetypical.Software.Spigot" Version="1.0.2" />
+    <PackageReference Include="MsgPack.Cli" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+</Project>

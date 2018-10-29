@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Archetypical.Software.Spigot.Serializers.Protobuf</AssemblyName>
+    <RootNamespace>Archetypical.Software.Spigot.Serializers.Protobuf</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Archetypical.Software.Spigot" Version="1.0.2" />
+    <PackageReference Include="protobuf-net" Version="2.4.0" />
+  </ItemGroup>
+
+</Project>
