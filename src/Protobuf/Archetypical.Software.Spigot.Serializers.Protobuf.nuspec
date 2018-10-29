@@ -10,7 +10,7 @@
             This utilizes the nuget package protobuf-net 
         </description>
         <dependencies>
-            <dependency id="Archetypical.Software.Spigot" version="1.0.0" />
+            <dependency id="Archetypical.Software.Spigot" version="1.0.2" />
             <dependency id="protobuf-net" version="2.4.0" />
         </dependencies>
     </metadata>

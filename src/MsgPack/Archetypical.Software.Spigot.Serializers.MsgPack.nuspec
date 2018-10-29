@@ -11,7 +11,7 @@
             The code replicates the logic in the package Newtonsoft.Msgpack to be able to handle circular references
         </description>
         <dependencies>
-            <dependency id="Archetypical.Software.Spigot" version="1.0.0" />
+            <dependency id="Archetypical.Software.Spigot" version="1.0.2" />
             <dependency id="MsgPack.Cli" version="1.0.0" />
             <dependency id="Newtonsoft.Json" version="11.0.2" />
         </dependencies>
