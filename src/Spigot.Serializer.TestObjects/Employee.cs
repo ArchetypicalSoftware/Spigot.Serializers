@@ -1,7 +1,7 @@
-﻿using ProtoBuf;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using ProtoBuf;
 
-namespace Spigot.Serializer.Tests
+namespace Spigot.Serializer.TestObjects
 {
     [ProtoContract]
     [ProtoInclude(4, typeof(Manager))]

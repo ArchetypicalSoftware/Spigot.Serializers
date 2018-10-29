@@ -1,8 +1,8 @@
-﻿using ProtoBuf;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using ProtoBuf;
 
-namespace Spigot.Serializer.Tests
+namespace Spigot.Serializer.TestObjects
 {
     [ProtoContract]
     public class Manager : Employee

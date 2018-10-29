@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Spigot.Serializer.Tests
+namespace Spigot.Serializer.TestObjects
 {
     public class MultiSetComparer<T> : IEqualityComparer<IEnumerable<T>>
     {

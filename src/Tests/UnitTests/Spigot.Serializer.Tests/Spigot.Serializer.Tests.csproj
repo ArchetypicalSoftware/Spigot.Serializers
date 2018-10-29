@@ -117,9 +117,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicTests.cs" />
-    <Compile Include="Manager.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="MultiSetComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +135,10 @@
     <ProjectReference Include="..\..\..\Protobuf\Archetypical.Software.Spigot.Serializers\Archetypical.Software.Spigot.Serializers.Protobuf.csproj">
       <Project>{fbc960be-9613-4ba4-9b6e-f4e10661626c}</Project>
       <Name>Archetypical.Software.Serializers.Protobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Spigot.Serializer.TestObjects\Spigot.Serializer.TestObjects.csproj">
+      <Project>{766f9452-226e-44d9-8b00-b7b6868d2104}</Project>
+      <Name>Spigot.Serializer.TestObjects</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

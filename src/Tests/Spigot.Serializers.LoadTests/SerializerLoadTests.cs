@@ -2,7 +2,7 @@
 using Archetypical.Software.Spigot;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Configs;
-using Spigot.Serializer.Tests;
+using Spigot.Serializer.TestObjects;
 
 namespace Spigot.Serializers.LoadTests
 {

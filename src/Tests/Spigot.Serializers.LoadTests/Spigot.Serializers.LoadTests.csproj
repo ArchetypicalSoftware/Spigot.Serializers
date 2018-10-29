@@ -320,9 +320,9 @@
       <Project>{fbc960be-9613-4ba4-9b6e-f4e10661626c}</Project>
       <Name>Archetypical.Software.Serializers.Protobuf</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UnitTests\Spigot.Serializer.Tests\Spigot.Serializer.Tests.csproj">
-      <Project>{18c746a1-f949-4874-830d-f83410fc24fc}</Project>
-      <Name>Spigot.Serializer.Tests</Name>
+    <ProjectReference Include="..\..\Spigot.Serializer.TestObjects\Spigot.Serializer.TestObjects.csproj">
+      <Project>{766f9452-226e-44d9-8b00-b7b6868d2104}</Project>
+      <Name>Spigot.Serializer.TestObjects</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

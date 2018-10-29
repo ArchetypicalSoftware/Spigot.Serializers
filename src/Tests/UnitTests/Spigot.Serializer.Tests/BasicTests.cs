@@ -1,5 +1,6 @@
 ﻿using Archetypical.Software.Spigot;
 using System.Collections.Generic;
+using Spigot.Serializer.TestObjects;
 using Xunit;
 
 namespace Spigot.Serializer.Tests
